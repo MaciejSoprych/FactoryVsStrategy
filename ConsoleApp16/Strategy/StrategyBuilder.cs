@@ -1,6 +1,6 @@
-﻿using ConsoleApp16.Strategy;
+﻿using FactoryVsStrategy.Strategy;
 
-namespace ConsoleApp16
+namespace FactoryVsStrategy.Strategy
 {
     public static class StrategyBuilder
     {

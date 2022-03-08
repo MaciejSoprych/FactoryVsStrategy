@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace ConsoleApp16
+namespace FactoryVsStrategy.Factory
 {
     public class CompanyVisit : Visit
     {
-        public CompanyVisit(DateTime visitDate, decimal visitDuration, decimal pricePerHour, decimal discount) : base(visitDate, visitDuration)
+        public CompanyVisit(DateTime visitDate, int visitDuration, decimal pricePerHour, decimal discount) : base(visitDate, visitDuration)
         {
             PricePerHour = pricePerHour;
             Discount = discount;

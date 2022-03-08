@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace ConsoleApp16
+namespace FactoryVsStrategy.Factory
 {
     public class NfzVisit : Visit
     {
-        public NfzVisit(DateTime visitDate, decimal visitDuration) : base(visitDate, visitDuration)
+        public NfzVisit(DateTime visitDate, int visitDuration) : base(visitDate, visitDuration)
         {
 
         }

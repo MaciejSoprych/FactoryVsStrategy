@@ -1,4 +1,5 @@
-﻿using ConsoleApp16.Strategy;
+﻿using FactoryVsStrategy.Factory;
+using FactoryVsStrategy.Strategy;
 using System;
 
 namespace ConsoleApp16
@@ -12,7 +13,7 @@ namespace ConsoleApp16
             var visitFactory = new VisitFactory();
             string type = "P";
             DateTime visitDate = DateTime.Now; 
-            decimal duration = 20.00m; 
+            int duration = 20; 
             decimal pricePerHour = 200;
             decimal discount = 0.3m; ;
             var visit = visitFactory.Create(type, visitDate, duration, pricePerHour, discount);

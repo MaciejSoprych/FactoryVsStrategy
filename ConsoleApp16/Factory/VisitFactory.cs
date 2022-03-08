@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace ConsoleApp16
+namespace FactoryVsStrategy.Factory
 {
     public class VisitFactory 
     {
-        public Visit Create (string type, DateTime visitDate, decimal duration, decimal pricePerHour, decimal discount)
+        public Visit Create (string type, DateTime visitDate, int duration, decimal pricePerHour, decimal discount)
         {
             switch (type)
             {
